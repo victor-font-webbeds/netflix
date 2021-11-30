@@ -26,6 +26,7 @@
 - Nueva Terminal que se abrirá abajo
 - Clicar dentro de la terminal
 - > npm i
+- (este proceso puede tardar un poco)
 
 ## 💻 Ejecutar el proyecto
 
