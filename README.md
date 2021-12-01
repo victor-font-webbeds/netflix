@@ -58,7 +58,7 @@ Cada equipo luchará por ser uno los mejores diseñadores web de la historia, cr
 
 Ej.: si desarrollamos el componente Card, ir a la carpeta _src_ > _card_ > _card_nombreDelEquipo_
 
-**2.** Realizar los cambios que queramos dentro del componente
+**2.** Realizar los cambios que queramos dentro del componente y guardar todos los archivos modificados.
 **3.** Subir los cambios a nuestra rama
 
 - Seleccionar el icono de git a la izquierda ![alt text](./documentation/git-1.png)
