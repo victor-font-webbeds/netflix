@@ -62,7 +62,11 @@ Ej.: si desarrollamos el componente Card, ir a la carpeta _src_ > _card_ > _card
 **3.** Subir los cambios a nuestra rama
 
 - Seleccionar el icono de git a la izquierda ![alt text](./documentation/git-1.png)
+- Clicar el símbolo **+** a la derecha del apartado **Cambios** para añadir todos nuestros Cambios.
+  ![alt text](./documentation/git-3.png)
 - Escribir un texto para la subida. Ej.: _Actualizacion componente tarjeta_
-  ![alt text](./documentation/git-2.png)
+  ![alt text](./documentation/git-4.png)
 - **Ctrl + Enter**
--
+- Si no hay más cambios pendientes, realizar el **sync** para subir la rama al repositorio.
+  ![alt text](./documentation/git-2.png)
+- El repositorio ya estará actualizado con los cambios que hemos realizado en local (:
