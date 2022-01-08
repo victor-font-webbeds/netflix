@@ -10,9 +10,11 @@ Cada equipo luchará por ser uno los mejores diseñadores web de la historia, cr
 
 ## 🚀 Primeros Pasos
 
-**1**. Descargar Git para Windows
+**1**. Descargar Git y Node.js para Windows
 
 > https://gitforwindows.org/
+
+> https://nodejs.org/es/
 
 **2**. Descargar Visual Studio Code para Windows
 
@@ -20,7 +22,7 @@ Cada equipo luchará por ser uno los mejores diseñadores web de la historia, cr
 
 **3**. Clonar este proyecto a donde queramos en nuestro ordenador
 
-- Abrir consola (powershell) en la ubicación que queramos
+- Abrir consola de git _(git bash)_ en la ruta en la que queramos guardar el proyecto
 
   > git clone https://github.com/victor-font-webbeds/netflix.git
 
