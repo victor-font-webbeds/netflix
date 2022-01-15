@@ -50,6 +50,7 @@ Cada equipo luchará por ser uno los mejores diseñadores web de la historia, cr
   ![alt text](./documentation/run-2.png)
 - Arriba nos saldrá un recuadro, donde deberemos elegir la rama del equipo al que pertenecemos.
   ![alt text](./documentation/run-1.png)
+  
   Ej.: si pertenecemos al equipo **team-1**, clicar donde pone **origin/team-1**
 - Abrir terminal en Visual Studio Code y clicar dentro
   > npm run storybook
@@ -61,14 +62,18 @@ Cada equipo luchará por ser uno los mejores diseñadores web de la historia, cr
 Ej.: si desarrollamos el componente Card, ir a la carpeta _src_ > _card_ > _card_nombreDelEquipo_
 
 **2.** Realizar los cambios que queramos dentro del componente y guardar todos los archivos modificados.
+
 **3.** Subir los cambios a nuestra rama
 
 - Seleccionar el icono de git a la izquierda ![alt text](./documentation/git-1.png)
 - Clicar el símbolo **+** a la derecha del apartado **Cambios** para añadir todos nuestros Cambios.
+  
   ![alt text](./documentation/git-3.png)
 - Escribir un texto para la subida. Ej.: _Actualizacion componente tarjeta_
+  
   ![alt text](./documentation/git-4.png)
 - **Ctrl + Enter**
 - Si no hay más cambios pendientes, realizar el **sync** para subir la rama al repositorio.
+  
   ![alt text](./documentation/git-2.png)
 - El repositorio ya estará actualizado con los cambios que hemos realizado en local (:
