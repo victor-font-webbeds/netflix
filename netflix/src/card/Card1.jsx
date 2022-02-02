@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./exampleCard.css";
+import "./Card1.css";
 
 /**
  * Primary UI component for user interaction
