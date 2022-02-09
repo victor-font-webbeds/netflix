@@ -9,7 +9,9 @@ export const Card = ({ image, text, darkMode, size }) => {
   const cardMode = darkMode ? "card--dark-mode" : "card--default-mode";
   return (
     <div className={`card card--${size} ${cardMode}`}>
-      <img src={image} />
+      <div className={`gradient--${cardMode}`}>
+        <img src={image}/>
+      </div>
       <p className="card-text">{text}</p>
     </div>
   );
