@@ -9,8 +9,11 @@ export const Card = ({ image, text, darkMode, size, genre, actor }) => {
   const cardMode = darkMode ? "card--dark-mode" : "card--default-mode";
   return (
     <div className={`card card--${size} ${cardMode}`}>
-      <div className={`gradient--${cardMode}`}>
-        <img src={image}/>
+      <div>
+        <div className={`gradient--${cardMode}`}>
+          <img src={image}/>
+        </div>
+        <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
       </div>
       <p className="card-text">{text}</p>
       <p className="card-genre">Género: {genre}</p> <br/>
