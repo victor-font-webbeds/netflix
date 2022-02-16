@@ -70,20 +70,27 @@ img {
   text-align: left;
   display: inline-block;
   line-height: 1;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .card-genre {
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: right;
+  text-align: left;
   display: inline-block;
   line-height: 1;
+  margin-left: 60%;
+  margin-right: 5%;
 }
 
 .card-actor {
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: right;
+  text-align: left;
   display: inline-block;
   line-height: 1;
+  margin-left: 60%;
+  margin-right: 5%;
 }
+

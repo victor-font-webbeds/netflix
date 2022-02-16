@@ -13,8 +13,8 @@ export const Card = ({ image, text, darkMode, size, genre, actor }) => {
         <img src={image}/>
       </div>
       <p className="card-text">{text}</p>
-      <p className="card-genre">{genre}</p>
-      <p className="card-actor">{actor}</p>
+      <p className="card-genre">Género: {genre}</p> <br/>
+      <p className="card-actor">Reparto: {actor}</p>
     </div>
   );
 };
