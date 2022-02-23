@@ -5,7 +5,7 @@ import "./exampleCard.css";
 /**
  * Primary UI component for user interaction
  */
-export const Card = ({ image, text, darkMode, size, genre, actor }) => {
+export const Card = ({ image, text, darkMode, size, genre, actor, company }) => {
   const cardMode = darkMode ? "card--dark-mode" : "card--default-mode";
   return (
     <div className={`card card--${size} ${cardMode}`}>
@@ -16,8 +16,9 @@ export const Card = ({ image, text, darkMode, size, genre, actor }) => {
         <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
       </div>
       <p className="card-text">{text}</p>
-      <p className="card-genre">Género: {genre}</p> <br/>
+      <p className="card-genre">Género: {genre}</p>
       <p className="card-actor">Reparto: {actor}</p>
+      <p className="card-company">Compañías: {company}</p> <br/>
     </div>
   );
 };
@@ -39,6 +40,8 @@ Card.propTypes = {
   genre: PropTypes.string.isRequired,
 
   actor: PropTypes.string.isRequired,
+
+  company: PropTypes.string.isRequired,
 };
 
 Card.defaultProps = {
