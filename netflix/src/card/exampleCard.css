@@ -79,9 +79,10 @@ img {
   font-weight: 100;
   text-align: left;
   display: inline-block;
-  line-height: 0;
   margin-left: 60%;
   margin-right: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
 }
 
 .card-actor {
@@ -89,9 +90,10 @@ img {
   font-weight: 100;
   text-align: left;
   display: inline-block;
-  line-height: 0;
   margin-left: 60%;
   margin-right: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
 }
 
 .card-company {
@@ -99,9 +101,10 @@ img {
   font-weight: 100;
   text-align: left;
   display: inline-block;
-  line-height: 0;
   margin-left: 60%;
   margin-right: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
 }
 
 .watch-now--card--dark-mode {
