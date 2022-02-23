@@ -94,6 +94,16 @@ img {
   margin-right: 5%;
 }
 
+.card-company {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  text-align: left;
+  display: inline-block;
+  line-height: 1;
+  margin-left: 60%;
+  margin-right: 5%;
+}
+
 .watch-now--card--dark-mode {
   position: relative;
   display:inline-block;
