@@ -19,6 +19,9 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
       <p className="card-genre">Género: {genre}</p>
       <p className="card-actor">Reparto: {actor}</p>
       <p className="card-company">Compañías: {company}</p> <br/>
+      <li>
+      <span class="font-awesome-icons star"></span> AYUDA, ME RINDO, ESTE ES UN PROBLEMA PARA EL YO FUTURO
+      </li>
     </div>
   );
 };
