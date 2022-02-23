@@ -30,7 +30,7 @@
 img {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 5%;
+  border-radius: 15px;
   opacity: 1;
 }
 
@@ -62,47 +62,69 @@ img {
   height: 150px;
   width: 100%;
   content: '';
+}´
+
+.order {
+  display: flex;
+}
+
+.description-section {
+  display: inline-block;
+  width: 60%;
 }
 
 .card-text {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   text-align: left;
-  display: inline-block;
   line-height: 1;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+.tags-section {
+  vertical-align:top;
+  display: inline-block;
+  width: 40%;
+  margin-top: 2%;
+}
+
+.card-genre-h {
+  color: gray;
+}
+
 .card-genre {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 0;
   margin-top: 1%;
+  display: inline-block;
+}
+
+.card-actor-h {
+  color: gray;
 }
 
 .card-actor {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 0;
   margin-top: 1%;
+}
+
+.card-company-h {
+  color: gray;
 }
 
 .card-company {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 0;
   margin-top: 1%;
 }
