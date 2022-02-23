@@ -99,7 +99,7 @@ img {
   font-weight: 100;
   text-align: left;
   display: inline-block;
-  line-height: 1;
+  line-height: 0;
   margin-left: 60%;
   margin-right: 5%;
 }
