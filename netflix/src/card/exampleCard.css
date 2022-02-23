@@ -30,7 +30,7 @@
 img {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 5%;
+  border-radius: 15px;
   opacity: 1;
 }
 
@@ -62,6 +62,15 @@ img {
   height: 150px;
   width: 100%;
   content: '';
+}´
+
+.order {
+  display: flex;
+}
+
+.description-section {
+  display: inline-block;
+  width: 60%;
 }
 
 .font-awesome-icons::before {
@@ -76,47 +85,63 @@ content: "\f005";
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   text-align: left;
-  display: inline-block;
   line-height: 1;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+.tags-section {
+  vertical-align:top;
+  display: inline-block;
+  width: 40%;
+  margin-top: 2%;
+}
+
+.card-genre-h {
+  color: gray;
+}
+
 .card-genre {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  line-height: 1;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.card-actor-h {
+  color: gray;
 }
 
 .card-actor {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  line-height: 1;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+.card-company-h {
+  color: gray;
 }
 
 .card-company {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  text-align: left;
-  display: inline-block;
-  line-height: 1;
-  margin-left: 60%;
   margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 1%;
 }
 
 .watch-now--card--dark-mode {
   position: relative;
   display:inline-block;
   top: 50%;
-  left: 10%;
+  left: 5%;
   background-color: rgb(255, 255, 255);
   font-size: 16px;
   padding: 12px 24px;
@@ -143,7 +168,7 @@ content: "\f005";
   position: relative;
   display:inline-block;
   top: 50%;
-  left: 10%;
+  left: 5%;
   background-color: #141414;
   font-size: 16px;
   padding: 12px 24px;
