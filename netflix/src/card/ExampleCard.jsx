@@ -16,7 +16,7 @@ export const Card = ({ image, text, darkMode, size, genre, actor }) => {
         <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
       </div>
       <p className="card-text">{text}</p>
-      <p className="card-genre">Género: {genre}</p> <br/>
+      <p className="card-genre">Género: {genre}</p>
       <p className="card-actor">Reparto: {actor}</p>
     </div>
   );
