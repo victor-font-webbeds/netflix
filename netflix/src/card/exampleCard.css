@@ -73,6 +73,14 @@ img {
   width: 60%;
 }
 
+.font-awesome-icons::before {
+  font-family: "Font Awesome 5 Brands"; 
+font-weight: 400;
+font-size: xx-large;
+color:rgb(255, 252, 50);
+content: "\a30";
+}
+
 .card-text {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;

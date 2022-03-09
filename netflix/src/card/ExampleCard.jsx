@@ -15,6 +15,9 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
         </div>
         <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
       </div>
+      <li>
+      <span class="font-awesome-icons star"></span> No se cual es el código de la estrella ni si hay una estrella sin meter el fontawesome el cual no puedo meter
+      </li>
       <div className="order">
       <div className="description-section">
         <p className="card-text">{text}</p>
