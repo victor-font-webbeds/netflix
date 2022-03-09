@@ -130,7 +130,7 @@ img {
   left: 5%;
   background-color: rgb(255, 255, 255);
   font-size: 16px;
-  padding: 12px ;
+  padding: 12px 15px;
   border: none;
   cursor: pointer;
   border-radius: 20px;
