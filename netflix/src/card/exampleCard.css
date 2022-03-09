@@ -123,6 +123,20 @@ img {
   border-radius: 20px;
 }
 
+.symbol--card--dark-mode {
+  position: relative;
+  display:inline-block;
+  top: 50%;
+  left: 5%;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px ;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
 .button-text--card--dark-mode {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -131,6 +145,10 @@ img {
 
 .watch-now--card--dark-mode:hover {
   animation: watch-now-anim 1s forwards;
+}
+
+.symbol--card--dark-mode:hover{
+  animation: symbol-anim 1s forwards;
 }
 
 .button-text--card--dark-mode:hover {
@@ -150,6 +168,20 @@ img {
   border-radius: 20px;
 }
 
+.symbol--card--default-mode {
+  position: relative;
+  display:inline-block;
+  top: 50%;
+  left: 5%;
+  background-color: #141414;
+  font-size: 16px;
+  padding: 12px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
 .button-text--card--default-mode {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -160,11 +192,20 @@ img {
   animation: watch-now-anim 1s forwards;
 }
 
+.symbol--card--default-mode:hover {
+  animation:  symbol-anim 1s forwards;
+}
+
 .button-text--card--default-mode:hover {
   animation: watch-now-anim 1s forwards;
 }
 
 @keyframes watch-now-anim {
+  from{transform: scale(1.0);}
+  to{transform: scale(1.1);}
+}
+
+@keyframes symbol-anim {
   from{transform: scale(1.0);}
   to{transform: scale(1.1);}
 }

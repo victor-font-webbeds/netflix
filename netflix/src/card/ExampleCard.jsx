@@ -14,7 +14,10 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
         <div className={`gradient--${cardMode}`}>
           <img src={image}/>
         </div>
-        <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
+        <button type="button" className={`watch-now--${cardMode}`}><a className={`button-text--${cardMode}`}>Ver ahora</a></button>
+        <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-plus"></i></a></button>
+        <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-thumbs-up"></i></a></button>
+        <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-thumbs-down"></i></a></button>
       </div>
       <div className="icon">
         <i className="fa fa-star"></i>
