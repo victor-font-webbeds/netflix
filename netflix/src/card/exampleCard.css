@@ -62,7 +62,26 @@ img {
   height: 150px;
   width: 100%;
   content: '';
-}´
+}
+
+.title--card--dark-mode {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 5%;
+  transform: translateY(-0%);
+  -ms-transform: translateY(-0%);
+  margin-top: -10%;
+  margin-bottom: 3%;
+}
+
+.title--card--default-mode {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 5%;
+  transform: translateY(-0%);
+  -ms-transform: translateY(-0%);
+  margin-top: -10%;
+  margin-bottom: 3%;
+  color: #000;
+}
 
 .order {
   display: flex;
@@ -73,12 +92,13 @@ img {
   width: 60%;
 }
 
-.icon {
-  font-family: "Font Awesome 5 Brands"; 
+.rating {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: xx-large;
-  color:rgb(255, 252, 50);
+  font-size: medium;
+  color:rgb(255, 174, 0);
   margin-left: 3%;
+  margin-top: 2%;
 }
 
 .card-text {

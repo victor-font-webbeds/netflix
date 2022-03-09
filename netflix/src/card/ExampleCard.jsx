@@ -6,7 +6,7 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css';
 /**
  * Primary UI component for user interaction
  */
-export const Card = ({ image, text, darkMode, size, genre, actor, company }) => {
+export const Card = ({ title ,image, rating, text, darkMode, size, genre, actor, company}) => {
   const cardMode = darkMode ? "card--dark-mode" : "card--default-mode";
   return (
     <div className={`card card--${size} ${cardMode}`}>
@@ -14,14 +14,12 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
         <div className={`gradient--${cardMode}`}>
           <img src={image}/>
         </div>
-        <button type="button" className={`watch-now--${cardMode}`}><a href="https:\\www.google.com" className={`button-text--${cardMode}`}>Ver ahora</a></button>
+        <h1 className={`title--${cardMode}`}>{title}</h1>
+        <button type="button" className={`watch-now--${cardMode}`}><a href="" className={`button-text--${cardMode}`}>Ver ahora</a></button>
       </div>
-      <div className="icon">
+      <div className="rating">
         <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
+        {rating}
       </div>
       <div className="order">
       <div className="description-section">
@@ -38,6 +36,7 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
 };
 
 Card.propTypes = {
+  title: PropTypes.string.isRequired,
   /**
    * El modo de colores de la tarjeta
    */
@@ -49,6 +48,8 @@ Card.propTypes = {
   /**
    * El contenido de la tarjeta
    */
+  rating: PropTypes.string.isRequired,
+
   text: PropTypes.string.isRequired,
 
   genre: PropTypes.string.isRequired,
