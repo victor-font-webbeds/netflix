@@ -14,15 +14,12 @@ export const Card = ({ title ,image, rating, text, darkMode, size, genre, actor,
         <div className={`gradient--${cardMode}`}>
           <img src={image}/>
         </div>
-<<<<<<< HEAD
+        <h1 className={`title--${cardMode}`}>{title}</h1>
         <button type="button" className={`watch-now--${cardMode}`}><a className={`button-text--${cardMode}`}>Ver ahora</a></button>
         <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-plus"></i></a></button>
         <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-thumbs-up"></i></a></button>
         <button type="button" className={`symbol--${cardMode}`}><a className={`button-text--${cardMode}`}><i class="fa fa-thumbs-down"></i></a></button>
-=======
-        <h1 className={`title--${cardMode}`}>{title}</h1>
-        <button type="button" className={`watch-now--${cardMode}`}><a href="" className={`button-text--${cardMode}`}>Ver ahora</a></button>
->>>>>>> 80feeb00366990d1b1f5c67fd47a95af5e5041a2
+        
       </div>
       <div className="rating">
         <i className="fa fa-star"></i>
