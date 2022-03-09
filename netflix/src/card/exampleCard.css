@@ -89,38 +89,11 @@ img {
   margin-top: 2%;
 }
 
-.card-genre-h {
+.card-tag-h {
   color: gray;
 }
 
-.card-genre {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 0;
-  margin-top: 1%;
-  display: inline-block;
-}
-
-.card-actor-h {
-  color: gray;
-}
-
-.card-actor {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 0;
-  margin-top: 1%;
-}
-
-.card-company-h {
-  color: gray;
-}
-
-.card-company {
+.card-tag {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   margin-right: 5%;

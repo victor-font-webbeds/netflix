@@ -20,9 +20,9 @@ export const Card = ({ image, text, darkMode, size, genre, actor, company }) => 
         <p className="card-text">{text}</p>
       </div>
       <div className="tags-section">
-        <p className="card-genre"><span className="card-genre-h">Género: </span>{genre}</p>
-        <p className="card-actor"><span className="card-actor-h">Reparto: </span>{actor}</p>
-        <p className="card-company"><span className="card-company-h">Compañías: </span>{company}</p> <br/>
+        <p className="card-tag"><span className="card-tag-h">Género: </span>{genre}</p>
+        <p className="card-tag"><span className="card-tag-h">Reparto: </span>{actor}</p>
+        <p className="card-tag"><span className="card-tag-h">Compañías: </span>{company}</p> <br/>
       </div>
       </div>
     </div>
