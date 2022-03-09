@@ -73,12 +73,12 @@ img {
   width: 60%;
 }
 
-.font-awesome-icons::before {
+.icon {
   font-family: "Font Awesome 5 Brands"; 
-font-weight: 400;
-font-size: xx-large;
-color:rgb(255, 252, 50);
-content: "\a30";
+  font-weight: 400;
+  font-size: xx-large;
+  color:rgb(255, 252, 50);
+  margin-left: 3%;
 }
 
 .card-text {
