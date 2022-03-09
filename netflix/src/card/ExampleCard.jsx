@@ -6,7 +6,7 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css';
 /**
  * Primary UI component for user interaction
  */
-export const Card = ({ title ,image, rating, text, darkMode, size, genre, actor, company}) => {
+export const Card = ({ title ,image, rating, text, darkMode, size, date, genre, actor, company}) => {
   const cardMode = darkMode ? "card--dark-mode" : "card--default-mode";
   return (
     <div className={`card card--${size} ${cardMode}`}>
@@ -24,6 +24,7 @@ export const Card = ({ title ,image, rating, text, darkMode, size, genre, actor,
       <div className="rating">
         <i className="fa fa-star"></i>
         {rating}
+        <span className="date">{date}</span>
       </div>
       <div className="order">
       <div className="description-section">
@@ -53,6 +54,8 @@ Card.propTypes = {
    * El contenido de la tarjeta
    */
   rating: PropTypes.string.isRequired,
+
+  date: PropTypes.string.isRequired,
 
   text: PropTypes.string.isRequired,
 

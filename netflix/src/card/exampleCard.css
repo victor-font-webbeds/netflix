@@ -83,6 +83,10 @@ img {
   color: #000;
 }
 
+.date {
+ color: #fff;
+}
+
 .order {
   display: flex;
 }
